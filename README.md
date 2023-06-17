@@ -1,2 +1,2 @@
-# kriiler.github.io
+# snowykritter.github.io
 Portfolio
