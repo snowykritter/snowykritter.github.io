@@ -6,15 +6,76 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://kit.fontawesome.com/7993c50e95.js" crossorigin="anonymous"></script>
         <style>
-          a{
-            color:grey;
-            text-decoration: none;
-          }
+            body{
+                background-color: rgb(34,34,63);
+                color: white;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+            }
+            .project-links{
+                color:rgb(191, 191, 191);
+                text-decoration: none;
+            }
+            .grid-container{
+                align: center;
+                display: inline-grid;
+                gap: 10px;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                grid-auto-flow: column row;
+                width: 75%;
+            }
+            .grid-item{
+                text-align: center;
+                border: 2px solid;
+                border-radius: 5px;
+                padding: 20px;
+                font-size: 20px;
+                
+            }
+            .yt{
+                color: rgb(249,59,49);
+                background-color: rgb(249,59,49,0.35);
+            }
+            .bsky{
+                color: rgb(90,190,252);
+                background-color: rgba(90,190,252,0.35);
+            }
+            .kf{
+                color:rgb(255,102,130);
+                background-color: rgba(255,102,130,0.35);
+            }
+            .o{
+                color: rgb(219,219,219);
+                background-color: rgba(219,219,219,0.35);
+            }
         </style>
     </head>
     <body>
-        <p>work in progress</p>
-        <p><a href="social.html">My Socials</a></p>
-        <p><a href="web%20project/main.html">CS web project using Bootstrap</a></p>
+        <p></p>
+        <h1>Socials</h1>
+        <p></p>
+        <div class="grid-container">
+            <div class="grid-item yt" id='youtube'><a href="https://youtube.com/@snowykritter" target="_blank">Youtube</a></div>
+            <div class="grid-item bsky"><a href="https://snowykritter.bsky.social/" target="_blank">BlueSky</a></div>
+            <div class="grid-item kf"><a href="https://ko-fi.com/snowykritter" target="_blank">Support me on Ko-Fi!</a></div>
+            <div class="grid-item o"><a href="https://github.com/snowykritter" target="_blank">Github</a></div>
+        </div>
+        <p></p></br>
+        <div class="grid-container">
+            <div class="grid-item o"><a href="https://cara.app/kritter" target="_blank">Cara app</a></div>
+            <div class="grid-item o"><a href="https://twitch.tv/snowykritter" target="_blank">Twitch</a></div>
+            <div class="grid-item o"><a href="https://discord.gg/TT9NuBNQfp" target="_blank">Discord server</a></div>
+            <div class="grid-item o"><a href="https://instagram.com/snowykritter" target="_blank">Instagram (Private)</a></div>
+        </div>
+
+        <p></p>
+        <h1>Projects</h1>
+        <p<a href="robot%20design/2024CADmas.html" class="project-links">December CAD-athon</p>
+        <p><a href="web%20project/main.html" class="project-links">CS web project using Bootstrap</a></p>
     </body>
 </html>
