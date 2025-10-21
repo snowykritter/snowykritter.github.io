@@ -1,4 +1,3 @@
 # Todo
 
-(-) add an art gallery page
-(-) add an about page
+- [ ] make home page in static react (consists of nav bar, about section, projects and art/design work)
