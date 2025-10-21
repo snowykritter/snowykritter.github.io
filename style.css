@@ -1,0 +1,31 @@
+body{
+  background-color: black;
+}
+.grid-container{
+  align: center;
+  display: inline-grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-flow: column row;
+  width: 75%;
+}
+.grid-item{
+  text-align: center;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 20px;
+}
+.navbar{
+  border: 2px solid;
+}
+.title{
+  font-size: 14;
+  color: rgba(196, 196, 196, 0.8);
+}
+.content{
+  font-size: 11;
+  color: rgba(235, 235, 235, 0.8);
+}
+
